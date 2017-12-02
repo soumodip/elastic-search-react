@@ -1,7 +1,7 @@
 <h3 style="color: #4C8EF7;">Elastic Search & React App</h3>
 <hr/>
-<p>As we all know, <i style="font-size:18px;">Elastic Search</i> is search engine based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. So we are going to us it to do some fuzzy searches and get some result back.</p>
-<p style="margin-top: 10px;">So on frontend, we have used <i style="font-size:18px;">React</i>, which is a  JavaScript library for building user interfaces along with <i style="font-size:18px;">Node JS & Express</i> to build our backend.</p>
+<p>As we all know, <i style="font-size:18px;"><b>Elastic Search</b></i> is search engine based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. So we are going to us it to do some fuzzy searches and get some result back.</p>
+<p style="margin-top: 10px;">So on frontend, I have used <i style="font-size:18px;"><b>React</b></i>, which is a  JavaScript library for building user interfaces along with <i style="font-size:18px;"><b>Node JS & Express</b></i> to build our backend.</p>
 <hr/>
 <h3 style="color: #4C8EF7;">Steps</h3>
 <ul>
