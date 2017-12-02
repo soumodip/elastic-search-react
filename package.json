@@ -1,0 +1,31 @@
+{
+  "name": "elastic_search_react",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Soumodip Paul <soumodippaul@gmail.com>",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-select": "^1.1.0",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "validator": "^9.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080"
+}

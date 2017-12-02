@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    font-family: 'Raleway', sans-serif;    
+}
+.inline-block {
+    display: inline-block;
+}
+.modal-outer {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 998;
+    background-color: rgba(8, 4, 4, 0.3);
+    overflow: auto;
+}
+.modal-outer.opened {
+    display: block;
+}
+.modal-inner {
+    position: relative;
+    margin: 10% 20%;
+    z-index: 1000;
+}
+.modal-hidden {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+.modal-dialog {
+    width: auto;
+}
+.table-all{
+    position:relative;
+    width: 100%;
+    padding: 20px 5%;
+    background-color: rgba(200, 200, 200, .25);
+    -webkit-box-shadow: -1px 7px 22px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 7px 22px 0px rgba(0,0,0,0.35);
+    box-shadow: -1px 7px 22px 0px rgba(0,0,0,0.35);
+}
+.table-scroll {
+    max-height: 200px;
+    overflow: auto;
+    margin-top: 30px;
+}
+.table-all .table tr:first-child th {
+    border: none;
+}
+.table>tbody>tr>th {
+    padding: 0px;
+}
+.table-all .table tr:first-child th b{
+    position: absolute;
+    top: 125px;
+    margin-left: 5px;
+}
+.table-search {
+    position: relative;
+    width: 100%;
+    padding: 20px 5%;
+}
+.table-search .table tr:first-child th {
+    border: none;
+}
+.table-search .table tr:first-child th b{
+    position: absolute;
+    top: 25px;
+    margin-left: 5px;
+}
+.width-100 {
+    width: 100%;
+}
+.align-center {
+    text-align: center;
+}
+.margin-left-10 {
+    margin-left: 10px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+.margin-right-5 {
+    margin-right: 5px;
+}
+.user-search {
+    padding: 40px 0px;
+    background-color: rgba(200, 200, 200, .25);
+    -webkit-box-shadow: -1px 7px 22px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 7px 22px 0px rgba(0,0,0,0.35);
+    box-shadow: -1px 7px 22px 0px rgba(0,0,0,0.35);
+}
+.multi-select {
+    padding: 40px 5%;
+}
+.multi-select .btn:focus,.multi-select .btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+.multi-select .btn.left{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.multi-select .btn.right{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.multi-select .btn.active {
+    background-color: rgba(40, 40, 40, .5);
+    color: #FFF;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.margin-top-10-per {
+    margin-top: 10%;
+}
