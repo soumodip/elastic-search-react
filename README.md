@@ -53,4 +53,5 @@
     <li>Also, when you are deploying this application on Production Server, try to use PM2 for deployment. Read more about <a href="http://pm2.keymetrics.io/">PM2</a></li>
 </ul>
 <hr/>
-<p style="width: 100%;text-align: center;">Developed with ❤️ by <a href="http://www.soumodippaul.com/">Soumodip Paul</a></p>
+<p>Developed by <a href="http://www.soumodippaul.com">Soumodip Paul</a></p>
+
